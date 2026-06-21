@@ -1,0 +1,1 @@
+ALTER TABLE public.schools ADD COLUMN IF NOT EXISTS price_per_session integer NOT NULL DEFAULT 0;
