@@ -6,6 +6,7 @@ import {
   School,
   GraduationCap,
   CalendarCheck,
+  CalendarClock, // <-- Ikon baru buat Jadwal
   Settings,
   LayoutDashboard,
 } from "lucide-react";
@@ -31,6 +32,7 @@ const pengajarItems = [
 
 const adminItems = [
   { title: "Dashboard", url: "/admin/dashboard", icon: LayoutDashboard, exact: true },
+  { title: "Master Jadwal", url: "/admin/jadwal", icon: CalendarClock }, // <-- Menu baru ditambahin di sini
   { title: "Pengajar & Gaji", url: "/admin", icon: Users, exact: true },
   { title: "Semua Absensi", url: "/admin/absensi", icon: CalendarCheck },
   { title: "Sekolah & Harga", url: "/admin/sekolah", icon: School },
