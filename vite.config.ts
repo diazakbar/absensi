@@ -14,6 +14,6 @@ export default defineConfig({
   },
   // 👇 TAMBAHKAN MANTRA INI BIAR BISA JALAN DI STB/NODE.JS
   nitro: {
-    preset: "node-server"
-  }
+    preset: "netlify"
+}
 });
