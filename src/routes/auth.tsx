@@ -14,8 +14,8 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/auth")({
   head: () => ({
     meta: [
-      { title: "Portal — Mechatron Robotik School" },
-      { name: "description", content: "Portal absensi pengajar Mechatron Robotik School." },
+      { title: "Mechatron Robotik School" },
+      { name: "description", content: "Absensi pengajar Mechatron Robotik School." },
     ],
   }),
   component: AuthPage,
