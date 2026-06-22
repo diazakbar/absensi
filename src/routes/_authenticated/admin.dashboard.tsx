@@ -115,9 +115,9 @@ function DashboardPage() {
   return (
     <div className="space-y-6 pb-10">
       <div>
-        <h1 className="font-display text-2xl font-bold tracking-tight">Command Center</h1>
+        <h1 className="font-display text-2xl font-bold tracking-tight">Dashboard</h1>
         <p className="text-sm text-muted-foreground mt-1">
-          Pantau ringkasan data sekolah, pengajar, dan statistik keaktifan tahun ini.
+          Ringkasan data sekolah, pengajar, dan aktivitas absen terbaru.
         </p>
       </div>
 
@@ -219,7 +219,6 @@ function DashboardPage() {
             <Activity className="w-5 h-5 text-destructive animate-pulse" />
             <h3 className="font-medium text-sm sm:text-base">Logs Aktivitas Pengajar (Real-time)</h3>
           </div>
-          <span className="text-xs bg-destructive/10 text-destructive font-medium px-2 py-0.5 rounded-full">Live Monitor</span>
         </div>
         
         <CardContent className="p-6">
