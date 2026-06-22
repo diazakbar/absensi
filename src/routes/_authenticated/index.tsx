@@ -366,7 +366,7 @@ function AbsenPage() {
           </div>
         ) : !jadwalHariIni || jadwalHariIni.length === 0 ? (
           <div className="rounded-xl border border-dashed p-4 text-center text-sm text-muted-foreground bg-muted/30">
-            Tidak ada jadwal mengajar rutin hari ini. Waktunya istirahat atau ngerjain project IoT! ☕
+            Tidak ada jadwal mengajar rutin hari ini
           </div>
         ) : (
           <div className="grid gap-3 sm:grid-cols-2">
